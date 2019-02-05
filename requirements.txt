@@ -1,0 +1,13 @@
+future
+requests
+spacy==2.0.18
+scikit-learn==0.19.2
+jsonpickle==0.9.0
+rasa-core==0.12.2
+rasa-nlu==0.13.7
+rasa-core-sdk==0.12.1
+geocoder
+tabulate
+pandas
+googletrans
+sklearn_crfsuite

@@ -1,0 +1,124 @@
+intents:
+- greet: {use_entities: false}
+- goodbye: {use_entities: false}
+- giving_keyword
+- giving_location
+- search
+- explore: {use_entities: false}
+- thanks: {use_entities: false}
+- affirm: {use_entities: false}
+- deny: {use_entities: false}
+
+actions:
+- utter_greet
+- utter_search_or_explore
+- utter_ask_keyword
+- utter_give_choice_keyword
+- utter_give_choice_location
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_unclear
+- utter_handle_denial
+- action_get_dataset
+
+slots:
+  keyword:
+    type: text
+    initial_value: "null"
+
+  location:
+    type: text
+    initial_value: "null"
+
+    
+entities:
+  - keyword
+  - location
+  
+  
+templates:
+  utter_greet:
+  - text: "Hey there! I am the Open Data Chatbot and I can help you to find the dataset."
+
+  utter_search_or_explore:
+  - text: "Do you want to search by the keyword or explore what is around?"
+    buttons:
+    - title: "Search"
+      payload: "search"
+    - title: "Explore"
+      payload: "explore"
+
+  utter_ask_keyword:
+    - text: "What are you interested in?"
+  
+  utter_give_choice_keyword:
+  - text: "Please, choose from the options!"
+    buttons:
+    - title: "Education"
+      payload: '/choose{"keyword": "education"}'
+    - title: "Health care"
+      payload: '/choose{"keyword": "healthcare"}'
+    - title: "Culture"
+      payload: '/choose{"keyword": "culture"}'
+    - title: "Geography"
+      payload: '/choose{"keyword": "geography"}' 
+    - title: "Population statistics"
+      payload: '/choose{"keyword": "population statistics"}' 
+    - title: "Agriculture"
+      payload: '/choose{"keyword": "agriculture"}' 
+    - title: "Ecology"
+      payload: '/choose{"keyword": "ecology"}' 
+    - title: "Politics"
+      payload: '/choose{"keyword": "politics"}' 
+    - title: "Economics"
+      payload: '/choose{"keyword": "economics"}' 
+    - title: "Public services"
+      payload: '/choose{"keyword": "public services"}'
+    - title: "Arts"
+      payload: '/choose{"keyword": "arts"}'
+    - title: "Sports"
+      payload: '/choose{"keyword": "sports"}'
+    - title: "Skip"
+      payload: '/choose{"keyword": "null"}'
+
+  utter_give_choice_location:
+  - text: "Please, choose from the location!"
+    buttons:
+    - title: "Vienna"
+      payload: '/choose{"location": "wien"}'
+    - title: "Graz"
+      payload: '/choose{"location": "graz"}'
+    - title: "Salzburg"
+      payload: '/choose{"location": "salzburg"}'
+    - title: "Innsbruck"
+      payload: '/choose{"location": "innsbruck"}'
+    - title: "Linz"
+      payload: '/choose{"location": "linz"}'
+    - title: "Klagenfurt am Woerthersee"
+      payload: '/choose{"location": "klagenfurt am woerthersee"}'
+    - title: "Villach"
+      payload: '/choose{"location": "villach"}'
+    - title: "Sankt Poelten"
+      payload: '/choose{"location": "sankt poelten"}'
+    - title: "Wiener Neustadt"
+      payload: '/choose{"location": "wiener neustadt"}'
+    - title: "Skip"
+      payload: '/choose{"location": "null"}'
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_default:
+  - text: "I don't understand you! I am sorry, but I am just a bot!"
+  
+  utter_handle_denial:
+  - text: "Let's try again."
+  
+  utter_happy:
+  - text: "Great!"
+  - text: "My pleasure!"
+
+  utter_goodbye:
+  - text: "Bye"
+  - text: "See you!"
