@@ -37,7 +37,7 @@ def train_dialogue(
         model_path="models/dialogue",
         training_data_file="stories.md"
         ):
-    fallback = FallbackPolicy(fallback_action_name="action_default_fallback",
+    fallback = FallbackPolicy(fallback_action_name="action_get_dataset",
                           core_threshold=0.3,
                           nlu_threshold=0.3)
     agent = Agent(

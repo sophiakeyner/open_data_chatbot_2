@@ -53,8 +53,7 @@
 * giving_keyword {"keyword": "health care"}
   - slot {"keyword": "health_care"}
   - utter_give_choice_location
-* giving_location {"location": "innsbruck"}
-  - slot {"location": "innsbruck"}
+* giving_location
   - action_get_dataset
 > further_dialogue
 
@@ -93,7 +92,7 @@
 * giving_keyword {"keyword": "military"}
   - slot {"keyword": "military"}
   - utter_give_choice_location
-* giving_location
+* giving_location 
   - action_get_dataset
 > further_dialogue
 

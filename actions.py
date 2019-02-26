@@ -24,12 +24,14 @@ class ActionGetDataset(Action):
         keyword = translator.translate(keyword_en, dest='de').text
         location = tracker.get_slot('location')
         df = pd.read_csv("location.csv")
-        message = tracker.latest_message['text']
-        words = message.split()
-        for word in words:
-            if word in df['Community Name']:
-                SlotSet("location", word)
-        location = tracker.get_slot('location')
+        if location == 'null':
+            message = tracker.latest_message['text']
+            words = message.split()
+            for word in words:
+                if df['Community Name'].str.contains(word, case=False).any():
+                    location = word
+                    [SlotSet('location', word)]
+        #filled_slots=str(tracker.current_slot_values())
         try:
             g = geocoder.geonames(location, key='h1554184')
         except:
