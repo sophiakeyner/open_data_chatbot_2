@@ -88,72 +88,72 @@
 - I want to search by a keyword
 - I would like to search once more by keyword
 - i want to learn something about [Vienna](keyword) 
-- can you please give me datasets about [Austria](keyword)
-- can you give me datasets about [Germany](keyword)
+- can you please give me datasets about [Austria](keyword) in Graz
+- can you give me datasets about [Germany](keyword) in Vienna
 - could I have information about [birds](keyword)
 - can you show me all datasets about [animals](keyword)
 - what do you have on [education](keyword)
-- data about [health care](keyword)
-- data on [politics](keyword)
+- data about [health care](keyword) in Vienna
+- data on [politics](keyword) in Graz
 - im interested in data concerning [schools](keyword)
-- im interested in data about [kindergardens](keyword)
+- im interested in data about [kindergardens](keyword) in Salzburg
 - i am interested in data about [roads](keyword)
-- is there something about [history](keyword)
+- is there something about [history](keyword) in Vienna
 - im interested in data related to [geography](keyword)
 - i am interested in datasets related to [landscape](keyword)
 - what about [buildings](keyword)
 - data concerning [archeology](keyword)
-- im interested in datasets on [rivers](keyword)
+- im interested in datasets on [rivers](keyword) in Vienna
 - is there something on [wars](keyword)
 - i am very interested in data related to [culture](keyword)
 - data concerning [museums](keyword)
 - data regarding [people](keyword)
-- what do you know about [flora](keyword)
+- what do you know about [flora](keyword) in Salzburg
 - what have you got on [nature](keyword)
 - anything about [places](keyword) ?
 - how about [food](keyword)?
-- i need data on [mountains](keyword)
-- i am looking for [weather](keyword)
+- i need data on [mountains](keyword) in Vienna
+- i am looking for [weather](keyword) in Graz
 - i am interested in datasets related to [universities](keyword)
 - can you search for [transport](keyword)
 - anything on [government](keyword)
-- my interest is in [districts](keyword)
+- my interest is in [districts](keyword) in Vienna
 - [cars](keyword)?
 - [museums](keyword)
-- [restaurants](keyword)
+- [restaurants](keyword) in Salzburg
 - [demographics](keyword)
-- [mountains](keyword)
+- [mountains](keyword) in Vienna
 - [history](keyword)
 - [schools](keyword)
-- [culture](keyword)
+- [culture](keyword) in Vienna
 - [transport](keyword)
 - [politics](keyword)
 - [education](keyword)
 - [health care](keyword)
 - [politics](keyword)
-- [schools](keyword)
+- [schools](keyword) in Vienna
 - [kindergardens](keyword)
 - [roads](keyword)
 - [history](keyword)
 - [geography](keyword)
-- [landscape](keyword)
-- [buildings](keyword)
+- [landscape](keyword) in Graz
+- [buildings](keyword) ?
 - [archeology](keyword)
 - [rivers](keyword)
 - [wars](keyword)
 - [culture](keyword)
 - [museums](keyword)
-- [people](keyword)
+- [people](keyword) in Salzburg
 - [flora](keyword)
 - [nature](keyword)
 - [places](keyword) ?
 - [food](keyword)?
-- [mountains](keyword)
+- [mountains](keyword) in Salzburg
 - [weather](keyword)
 - [universities](keyword)
 - [transport](keyword)
 - [government](keyword)
-- [districts](keyword)
+- [districts](keyword) in Graz
 - [medicine](keyword)
 - [technology](keyword)
  
@@ -177,11 +177,11 @@
 - [parks](keyword)
 - [education](keyword)
 - [museums](keyword)
-- [restaurants](keyword)
+- [restaurants](keyword) in Vienna
 - [demographics](keyword)
 - [mountains](keyword)
 - [history](keyword)
-- [schools](keyword)
+- [schools](keyword) in Graz
 - [culture](keyword)
 - [transport](keyword)
 - [politics](keyword)
@@ -193,24 +193,24 @@
 - [history](keyword)
 - [schools](keyword)
 - [culture](keyword)
-- [transport](keyword)
+- [transport](keyword) in Vienna
 - [politics](keyword)
 - [education](keyword)
 - [health care](keyword)
 - [politics](keyword)
-- [schools](keyword)
+- [schools](keyword) in Graz
 - [kindergardens](keyword)
 - [roads](keyword)
 - [history](keyword)
 - [geography](keyword)
 - [landscape](keyword)
 - [buildings](keyword)
-- [archeology](keyword)
+- [archeology](keyword) in Vienna
 - [rivers](keyword)
 - [wars](keyword)
 - [culture](keyword)
 - [museums](keyword)
-- [people](keyword)
+- [people](keyword)in Vienna
 - [flora](keyword)
 - [nature](keyword)
 - [places](keyword) ?
