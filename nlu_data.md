@@ -177,7 +177,7 @@
 - [parks](keyword)
 - [education](keyword)
 - [museums](keyword)
-- [restaurants](keyword) in Vienna
+- [restaurants](keyword) in Vienna 
 - [demographics](keyword)
 - [mountains](keyword)
 - [history](keyword)
