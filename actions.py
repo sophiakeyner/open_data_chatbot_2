@@ -20,6 +20,9 @@ class ActionGetDataset(Action):
 
     def run(self, dispatcher, tracker, domain):
         keyword_en = tracker.get_slot('keyword')
+        if keyword_en == "null" and tracker.latest_message['text'].len() <= 3:
+            keyword_en = message.split()[0]
+
         translator = Translator()
         keyword = translator.translate(keyword_en, dest='de').text
         location = tracker.get_slot('location')
