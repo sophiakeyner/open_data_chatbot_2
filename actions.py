@@ -20,8 +20,8 @@ class ActionGetDataset(Action):
 
     def run(self, dispatcher, tracker, domain):
         keyword_en = tracker.get_slot('keyword')
-        if keyword_en == "null" and tracker.latest_message['text'].len() <= 3:
-            keyword_en = message.split()[0]
+        if keyword_en == "null" and len(tracker.latest_message['text'].split()) <= 3:
+            keyword_en = tracker.latest_message['text'].split()[0]
 
         translator = Translator()
         keyword = translator.translate(keyword_en, dest='de').text
@@ -108,7 +108,7 @@ class ActionGetDataset(Action):
                 response_bot = "Datasets within {}".format(location) +"                   "+ tabulate(table, headers=['Name', 'Link'])
 
         else:     
-            response_bot = 'Sorry, it looks like we don\'t have that! Try to enter other keywords.' 
+            response_bot = 'Sorry, I don\'t understand you! .' 
 
 
         dispatcher.utter_message(response_bot)

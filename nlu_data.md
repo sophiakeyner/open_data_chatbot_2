@@ -210,7 +210,7 @@
 - [wars](keyword)
 - [culture](keyword)
 - [museums](keyword)
-- [people](keyword)in Vienna
+- [people](keyword) in Vienna
 - [flora](keyword)
 - [nature](keyword)
 - [places](keyword) ?

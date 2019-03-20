@@ -39,7 +39,7 @@ entities:
   
 templates:
   utter_greet:
-  - text: "Hey there! I am the Open Data Chatbot and I can help you to find the dataset."
+  - text: "Hey there! I am the Open Data Chatbot and I can help you to find the desired dataset."
 
   utter_search_or_explore:
   - text: "Do you want to search by the keyword or explore what is around?"
@@ -53,7 +53,7 @@ templates:
     - text: "What are you interested in?"
   
   utter_give_choice_keyword:
-  - text: "Please, choose from the options!"
+  - text: "Please, choose the keyword!"
     buttons:
     - title: "Education"
       payload: '/choose{"keyword": "education"}'
@@ -83,7 +83,7 @@ templates:
       payload: '/choose{"keyword": "null"}'
 
   utter_give_choice_location:
-  - text: "Please, choose from the location!"
+  - text: "Please, choose the location!"
     buttons:
     - title: "Vienna"
       payload: '/choose{"location": "wien"}'
